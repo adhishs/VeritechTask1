@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(148, 203, 203);
+}
+.company {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+/* Responsive Typography */
+h4 {
+
+  margin: 30px;
+  background-color: rgb(198, 61, 198);
+  color: white;
+  border: 1px solid  rgb(198, 61, 198);
+  border-radius: 8px;
+  padding: 15px 15px;
+  font-size: large;
+}
+.dotted-line{
+    
+  width: 50%; 
+  border-top: 1px dotted rgb(198, 61, 198);
+  margin: 20px auto;
+}
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container4,
+.image-container6{
+  margin-top: 50px;
+}
+
+
+.centered-image, .right-image {
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Ensure images cover the area without stretching */
+}
+
+.right-image {
+  margin-left: 40px; /* Spacing between the first and second image */
+}
+
+@media (max-width: 600px) {
+  h4 {
+      font-size: medium;
+      
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
